@@ -129,7 +129,7 @@ class AppTheme {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(AppSizes.radiusMd),
           ),
-          minimumSize: const Size(double.infinity, AppSizes.buttonHeight),
+          minimumSize: const Size.fromHeight(AppSizes.buttonHeight),
           textStyle: GoogleFonts.poppins(
             fontSize: 16,
             fontWeight: FontWeight.w600,
@@ -143,7 +143,7 @@ class AppTheme {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(AppSizes.radiusMd),
           ),
-          minimumSize: const Size(double.infinity, AppSizes.buttonHeight),
+          minimumSize: const Size.fromHeight(AppSizes.buttonHeight),
           textStyle: GoogleFonts.poppins(
             fontSize: 16,
             fontWeight: FontWeight.w600,
@@ -156,7 +156,7 @@ class AppTheme {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(AppSizes.radiusMd),
           ),
-          minimumSize: const Size(double.infinity, AppSizes.buttonHeight),
+          minimumSize: const Size.fromHeight(AppSizes.buttonHeight),
           textStyle: GoogleFonts.poppins(
             fontSize: 16,
             fontWeight: FontWeight.w600,
@@ -401,7 +401,7 @@ class AppTheme {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(AppSizes.radiusMd),
           ),
-          minimumSize: const Size(double.infinity, AppSizes.buttonHeight),
+          minimumSize: const Size.fromHeight(AppSizes.buttonHeight),
           textStyle: GoogleFonts.poppins(
             fontSize: 16,
             fontWeight: FontWeight.w600,
@@ -415,7 +415,7 @@ class AppTheme {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(AppSizes.radiusMd),
           ),
-          minimumSize: const Size(double.infinity, AppSizes.buttonHeight),
+          minimumSize: const Size.fromHeight(AppSizes.buttonHeight),
           textStyle: GoogleFonts.poppins(
             fontSize: 16,
             fontWeight: FontWeight.w600,
@@ -428,7 +428,7 @@ class AppTheme {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(AppSizes.radiusMd),
           ),
-          minimumSize: const Size(double.infinity, AppSizes.buttonHeight),
+          minimumSize: const Size.fromHeight(AppSizes.buttonHeight),
           textStyle: GoogleFonts.poppins(
             fontSize: 16,
             fontWeight: FontWeight.w600,

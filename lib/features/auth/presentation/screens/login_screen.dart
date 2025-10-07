@@ -353,6 +353,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                 // Sign Up Link
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisSize: MainAxisSize.min,
                   children: [
                     const Text(
                       "Don't have an account? ",
@@ -361,18 +362,25 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                         color: Color(0xFF666666),
                       ),
                     ),
-                    TextButton(
-                      onPressed: () {
-                        context.go('/signup');
-                      },
-                      style: TextButton.styleFrom(
-                        foregroundColor: const Color(0xFF2196F3),
-                      ),
-                      child: const Text(
-                        'Sign Up',
-                        style: TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
+                    Flexible(
+                      fit: FlexFit.loose,
+                      child: TextButton(
+                        onPressed: () {
+                          context.go('/signup');
+                        },
+                        style: TextButton.styleFrom(
+                          foregroundColor: const Color(0xFF2196F3),
+                          minimumSize: const Size(0, 40),
+                          tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                          padding: EdgeInsets.zero,
+                        ),
+                        child: const Text(
+                          'Sign Up',
+                          overflow: TextOverflow.visible,
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ),
